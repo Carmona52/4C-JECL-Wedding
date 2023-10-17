@@ -34,7 +34,7 @@
                       <img src="assets/img/banner/banner-shape3.png" alt="banner__shape">
                    </div>
                    <h5 class="wow fadeInUp" data-wow-duration="2s">The Wedding of</h5>
-                   <h1 class="wow fadeInDown" data-wow-duration="4s">Shakira & Deniel</h1>
+                   <h1 class="wow fadeInDown" data-wow-duration="4s">Jesús Carmona & Lizbeth</h1>
                    <h3 class="wow fadeInUp" data-wow-duration="2s">You are invited</h3>
                 </div>
              </div>
@@ -121,7 +121,7 @@
                      The wedding day of
                   </h3>
                   <h2 class="celebrate__tittle">
-                     Shakira & Deniel
+                     Jesus Carmona & Lizbeth
                   </h2>
                   <h3 class="sub__tittle">
                      Which is celebration on
@@ -259,7 +259,7 @@
                </div>
                <div class="testi__content">
                   <h3>
-                     Danial Dennis
+                     Jesus Carmona
                   </h3>
                   <p>
                      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
@@ -277,7 +277,7 @@
                </div>
                <div class="testi__content">
                   <h3>
-                     Shakira Judith
+                     Dana Lizbeth
                   </h3>
                   <p>
                      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
