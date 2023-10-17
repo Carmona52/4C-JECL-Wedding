@@ -1,8 +1,10 @@
 <?php
- Class ControladorPlantilla{
+    Class ControladorPlantilla{
+        #Llamada la plantilla 
+        #
+        public function ctrTraerPlantilla(){
+            include "vistas/plantilla.php";
+        }
 
-    public function ctrTraerPlantilla(){
-        include "vistas/plantilla.php";
     }
- }
 ?>

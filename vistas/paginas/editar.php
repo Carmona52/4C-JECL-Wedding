@@ -1,21 +1,3 @@
-<?php
- 
- if(!isset($_SESSION["validarIngreso"])){
-
-    echo '<script>window.location="index.php?pagina=ingreso";</script>';
-    return;
- } else{
-
-    if($_SESSION["validarIngreso"] !="ok"){
-        echo '<script>window.location="index.php?pagina=ingreso";</script>';
-        return;
-    }
-
- }
-
- $usuarios = ControladorFormularios::ctrSeleccionarRegistros(null,null); 
- //echo '<prev>'; print_r($usuarios); echo'</pre>';
- ?>
 <!--=========== Breadcumd Section Here ========= -->
 <section class="breadcumd__banner">
     <div class="container">
@@ -57,8 +39,8 @@ if (isset($_GET["id"])) {
                 <div class="input-group-prepend">
                     <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
                 </div>
-                <input type="text" class="form-control" value="<?php echo $usuario["nombre"]; ?>" placeholder="name" 
-                id="name" name="updateName">
+                <input type="text" class="form-control" value="<?php echo $usuario["nombre"]; ?>" placeholder="name"
+                    id="name" name="updateName">
             </div>
         </div>
         <div class="form-group">
@@ -97,7 +79,7 @@ if (isset($_GET["id"])) {
             echo '<div class="alert-success"> El usuario ha sido actualizado</div>
                 <script>
                     setTimeout(function(){
-                        window.location = "index.php?pagina=home";
+                        window.location = "index.php?pagina=inicio";
                     }, 1600);
                 </script>';
         }
@@ -110,53 +92,3 @@ if (isset($_GET["id"])) {
                 <button type="submit" class="btn btn-primary">Actualizar</button>
             </form>
         </div>
-
-    </form>
-</div>
-
-
-
-<!--=========== Footer Section Here ========= -->
-<div class="footer__section">
-   <div class="container">
-      <div class="border__area">
-         <div class="container">
-            <div class="footer__logo center">
-               <a href="index.php?pagina=home">
-                  <img src="assets/img/logo/logo.png" alt="footer__logo">
-               </a>
-            </div>
-            <div class="footer__bottom center">
-               <p>© 2023 All Rights Reserved. Designed by <a href="#0" class="text-base-2">NextGenerationDev</a></p>
-               <ul class="footer__icon">
-                  <li>
-                     <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                  </li>
-                  <li>
-                     <a href="#0"><i class="fa-brands fa-twitter"></i></a>
-                  </li>
-                  <li class="active">
-                     <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
-                  </li>
-                  <li>
-                     <a href="#0"><i class="fa-brands fa-whatsapp"></i></a>
-                  </li>
-                  <li class="mr-none">
-                     <a href="#0"><i class="fa-brands fa-instagram"></i></a>
-                  </li>
-               </ul>
-               <ul class="footer__menu">
-                  <li><a href="index.html">home</a></li>
-                  <li><a href="about.html">about</a></li>
-                  <li><a href="service.html">service</a></li>
-                  <li><a href="story.html">Story</a></li>
-                  <li><a href="gallery.html">gallery</a></li>
-                  <li><a href="blog.html">blog</a></li>
-                  <li class="mr-none"><a href="contact.html">contact</a></li>
-               </ul>
-            </div>
-         </div>
-      </div>
-   </div>
-</div>
-<!--=========== Footer Section End ========= -->

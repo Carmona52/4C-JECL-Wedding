@@ -55,7 +55,7 @@
    $registro = new ControladorFormularios();
    $registro -> crtRegistro(); 
    */
-        $registro = ControladorFormularios::ctrRegistro();
+        $registro = ControladorFormularios::crtRegistro();
         if ($registro == "ok") {
             echo '<script>
                 if (window.history.replaceState){
