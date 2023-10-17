@@ -17,63 +17,32 @@
  //echo '<prev>'; print_r($usuarios); echo'</pre>';
  ?>
 
-<!--=========== Breadcumd Section Here ========= -->
-<section class="breadcumd__banner">
-   <div class="container">
-      <div class="breadcumd__wrapper center">
-         <h1 class="left__content">
-            About us
-         </h1>
-         <ul class="right__content">
-            <li>
-               <a href="index.php?pagina=home">
-                  Home
-               </a>
-            </li>
-            <li>
-               <i class="fa-solid fa-chevron-right"></i>
-            </li>
-            <li>
-               About
-            </li>
-         </ul>
-      </div>
+<!--=========== Banner Section Here ========= -->
+<section class="banner__section">
+   <div class="banner-overlay">
+       <div class="container">
+          <div class="row g-4 justify-content-center">
+             <div class="col-lg-12">
+                <div class="banner__content center">
+                   <div class="banner__shape">
+                      <img src="assets/img/banner/banner-shape.png" alt="banner__shape">
+                   </div>
+                   <div class="banner__shape2">
+                      <img src="assets/img/banner/banner-shape2.png" alt="banner__shape">
+                   </div>
+                   <div class="banner__shape3">
+                      <img src="assets/img/banner/banner-shape3.png" alt="banner__shape">
+                   </div>
+                   <h5 class="wow fadeInUp" data-wow-duration="2s">The Wedding of</h5>
+                   <h1 class="wow fadeInDown" data-wow-duration="4s">Shakira & Deniel</h1>
+                   <h3 class="wow fadeInUp" data-wow-duration="2s">You are invited</h3>
+                </div>
+             </div>
+          </div>
+       </div>
    </div>
 </section>
-<!--=========== Breadcumd Section Here ========= -->
-
-<!--=========== About Section Here ========= -->
-<section class="about__section style__two pt-120 pb-120">
-   <div class="right__shape wow fadeInUp" data-wow-duration="4s">
-      <img src="assets/img/testi/shape-right.png" alt="left__shape">
-   </div>
-   <div class="container">
-      <div class="row g-4 align-items-center">
-         <div class="col-lg-6 wow fadeInDown" data-wow-duration="3s">
-            <div class="left__thumb">
-               <img src="assets/img/about/about.png" alt="about-image">
-            </div>
-         </div>
-         <div class="col-lg-6 wow fadeInUp" data-wow-duration="4s">
-            <div class="right__content">
-               <h3 class="about__tittle mb-2">
-                  We will organize your wedding anytime
-               </h3>
-               <p>
-                  The purpose of invitation should be clear. The name of the honoree must be mentioned. The event date and time must be written in letters, do not use abbreviations. Venue Name and Venue's Full Address are important.Write the date of your party, including the date and day of the week. Your invitation also needs to tell your guests what time to arrive and approximate or definite.
-               </p>
-               <p class="p__cont mt-3">
-                  Few classic color options remain a top choice for brides across the decades as blue. In addition to this color being what some call a good luck charm for the day, it's also a color that symbolized royalty. In addition to this color being what some call a good luck charm for the day, it's also a color that symbolized royalty.
-               </p>
-               <a href="#0" class="cmn--btn mt-4">
-                  read more
-               </a>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-<!--=========== About Section End ========= -->
+<!--=========== Banner Section End ========= -->
 
 <!--=========== About Section Here ========= -->
 <section class="about__section pt-120 pb-120">
@@ -124,7 +93,7 @@
 
 <!--=========== Celebrate Section Here ========= -->
 <section class="celebrate__section pb-120">
-   <div class="flowers__shape wow fadeInUp" data-wow-duration="3s">
+   <div class="flowers__shape wow fadeInUp" data-wow-duration="4s">
       <img src="assets/img/celebrate/flower.png" alt="shape__image">
    </div>
    <div class="left__shape">
@@ -177,6 +146,152 @@
    </div>
 </section>
 <!--=========== Celebrate Section End ========= -->
+
+<!--=========== Love Section Here ========= -->
+<section class="love__section pt-120 pb-120">
+   <div class="container">
+      <div class="section__header section__center wow fadeInDown" data-wow-duration="4s">
+         <h2 class="section__title">
+            Our Love Story
+         </h2>
+         <img src="assets/img/tittle/flower.png" alt="flower__tittle">
+      </div>
+      <div class="row g-0">
+         <div class="col-xxl-6 col-xl-6 col-lg-6">
+            <div class="love__items">
+               <div class="love__thumb wow fadeInDown" data-wow-duration="4s">
+                  <img src="assets/img/love/flower.png" alt="flower__thumb">
+                  <div class="love__wrapper">
+                     <div class="love__content">
+                        <h3>The Proposal</h3>
+                        <p>
+                           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-xxl-6 col-xl-6 col-lg-6 mt-4">
+            <div class="right__thumb wow fadeInUp" data-wow-duration="3s">
+               <img src="assets/img/love/right.jpg" alt="right__image">
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!--=========== Love Section End ========= -->
+
+<!--=========== Gallery Section Here ========= -->
+<section class="gallery__section pt-120 pb-120">
+   <div class="left__shape fadeInDown" data-wow-duration="3s">
+      <img src="assets/img/testi/shape-left.png" alt="left__shape">
+   </div>
+   <div class="container">
+      <div class="section__header section__center wow fadeInDown" data-wow-duration="4s">
+         <h2 class="section__title">
+            Captured Moments
+         </h2>
+         <img src="assets/img/tittle/flower.png" alt="flower__tittle">
+      </div>
+      <div class="row g-4">
+         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <div class="gallery__thumb">
+               <a href="assets/img/gallery/g1.jpg" class="popup__image">
+                  <img src="assets/img/gallery/g1.jpg" alt="gallery__image">
+               </a>
+            </div>
+         </div>
+         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <div class="gallery__thumb">
+               <a href="assets/img/gallery/g2.jpg" class="popup__image">
+                  <img src="assets/img/gallery/g2.jpg" alt="gallery__image">
+               </a>
+            </div>
+         </div>
+         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <div class="gallery__thumb">
+               <a href="assets/img/gallery/g3.jpg" class="popup__image">
+                  <img src="assets/img/gallery/g3.jpg" alt="gallery__image">
+               </a>
+            </div>
+         </div>
+         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <div class="gallery__thumb">
+               <a href="assets/img/gallery/g4.jpg" class="popup__image">
+                  <img src="assets/img/gallery/g4.jpg" alt="gallery__image">
+               </a>
+            </div>
+         </div>
+         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <div class="gallery__thumb">
+               <a href="assets/img/gallery/g5.jpg" class="popup__image">
+                  <img src="assets/img/gallery/g5.jpg" alt="gallery__image">
+               </a>
+            </div>
+         </div>
+         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <div class="gallery__thumb">
+               <a href="assets/img/gallery/g6.jpg" class="popup__image">
+                  <img src="assets/img/gallery/g6.jpg" alt="gallery__image">
+               </a>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!--=========== Gallery Section End ========= -->
+
+<!--=========== Testimonial Section Here ========= -->
+<section class="testimonial__section pt-120 pb-120">
+   <div class="left__shape wow fadeInDown" data-wow-duration="3s">
+      <img src="assets/img/testi/shape-left.png" alt="left__shape">
+   </div>
+   <div class="right__shape wow fadeInUp" data-wow-duration="4s">
+      <img src="assets/img/testi/shape-right.png" alt="left__shape">
+   </div>
+   <div class="container">
+      <div class="row g-4">
+         <div class="col-xxl-6 col-xl-6 col-lg-6 wow fadeInDown" data-wow-duration="3s">
+            <div class="testi__items center">
+               <div class="testi__thumb">
+                  <img src="assets/img/testi/testi1.png" alt="testi-image">
+               </div>
+               <div class="testi__content">
+                  <h3>
+                     Danial Dennis
+                  </h3>
+                  <p>
+                     It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  </p>
+                  <div class="testi__shape mt-3">
+                     <img src="assets/img/testi/shape.png" alt="flower__image">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-xxl-6 col-xl-6 col-lg-6 wow fadeInUp" data-wow-duration="4s">
+            <div class="testi__items center">
+               <div class="testi__thumb">
+                  <img src="assets/img/testi/testi2.png" alt="testi-image">
+               </div>
+               <div class="testi__content">
+                  <h3>
+                     Shakira Judith
+                  </h3>
+                  <p>
+                     It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  </p>
+                  <div class="testi__shape mt-3">
+                     <img src="assets/img/testi/shape.png" alt="flower__image">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!--=========== Testimonial Section End ========= -->
 
 <!--=========== Member Section Here ========= -->
 <section class="member__wedding__section pb-120">
@@ -348,6 +463,78 @@
    </div>
 </section>
 <!--=========== Attending Section End ========= -->
+
+<!--=========== Blog Section Here ========= -->
+<section class="blog__section pt-120 pb-120">
+   <div class="left__shape">
+      <img src="assets/img/testi/shape-left.png" alt="left__shape">
+   </div>
+   <div class="container">
+      <div class="section__header section__center wow fadeInDown" data-wow-duration="4s">
+         <h2 class="section__title">
+           from our blog
+         </h2>
+         <img src="assets/img/tittle/flower.png" alt="flower__tittle">
+      </div>
+      <div class="row g-4">
+         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 wow fadeInDown" data-wow-duration="7s">
+            <div class="blog__items">
+               <div class="blog__thumb">
+                  <img src="assets/img/blog/blog1.jpg" alt="blog__image">
+               </div>
+               <div class="blog__content">
+                  <h4>
+                     <a href="blog-single.html">top 10 gifts</a>
+                  </h4>
+                  <p>
+                     The tradition is based on an Old English rhyme that dates back to 19th-century Lancashire.It describes the items a bride should have on her wedding day.
+                  </p>
+                  <div class="blog-button mt-2">
+                     <a href="blog-single.html" class="blog-btn">read more</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="5s">
+            <div class="blog__items">
+               <div class="blog__thumb">
+                  <img src="assets/img/blog/blog2.jpg" alt="blog__image">
+               </div>
+               <div class="blog__content">
+                  <h4>
+                     <a href="blog-single.html">Best Photography Idea</a>
+                  </h4>
+                  <p>
+                     The tradition is based on an Old English rhyme that dates back to 19th-century Lancashire.It describes the items a bride should have on her wedding day.
+                  </p>
+                  <div class="blog-button mt-2">
+                     <a href="blog-single.html" class="blog-btn">read more</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 wow fadeInDown" data-wow-duration="2s">
+            <div class="blog__items">
+               <div class="blog__thumb">
+                  <img src="assets/img/blog/blog3.jpg" alt="blog__image">
+               </div>
+               <div class="blog__content">
+                  <h4>
+                     <a href="blog-single.html">Wedding Flower Collect</a>
+                  </h4>
+                  <p>
+                     The tradition is based on an Old English rhyme that dates back to 19th-century Lancashire.It describes the items a bride should have on her wedding day.
+                  </p>
+                  <div class="blog-button mt-2">
+                     <a href="blog-single.html" class="blog-btn">read more</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!--=========== Blog Section End ========= -->
 
 <!--=========== Footer Section Here ========= -->
 <div class="footer__section">
